@@ -1,0 +1,38 @@
+body {
+  background-image: url("/background.jpeg");
+}
+.btnn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(10, 0, 0);
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #d63e3e;
+    border-radius: 10px;
+   }
+   .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #711a02 51%, #f6d365 100%);
+  }
+#image {
+  background-color: rgba(86, 81, 81, 0.719);
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: solid black;
+}
