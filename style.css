@@ -1,6 +1,6 @@
-/* body {
-  background-image: url("/background.jpeg");
-} */
+body {
+  background-image: url("background.jpeg");
+}
 .btnn {
   display: flex;
   flex-direction: column;
